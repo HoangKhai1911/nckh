@@ -1,0 +1,20 @@
+# Core Deep Learning and Data Handling
+tensorflow>=2.10.0
+numpy>=1.21.0
+scipy
+pandas
+joblib
+
+# Model Evaluation and Metrics
+scikit-learn
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Biosignal Data Processing (for .edf files)
+mne
+
+# Utilities and Reporting
+tqdm
+tabulate

@@ -1,0 +1,25 @@
+# Data
+*.edf
+*.npy
+*.pkl
+*.joblib
+
+# Model
+*.zip
+*.edf
+*.keras
+*.h5
+*.pkl
+*.npy
+
+# Folder nặng
+Baseline_RF/sleep-edf-database-expanded-1.0.0/
+Baseline_RF/processed_data*/
+Baseline_RF/saved_models*/
+TrainCycleSleep_AI_CNN_LSTM/Data/
+TrainCycleSleep_AI_CNN_LSTM/Model_Result/
+
+# IDE
+.idea/
+.venv/
+__pycache__/
