@@ -26,11 +26,76 @@ Các giai đoạn bao gồm:
 
 ---
 
-## 🧪 Dataset
+## 📂 Dataset
 
-Dự án sử dụng dataset:
+This project uses the **Sleep-EDF Expanded Dataset** provided by PhysioNet.
 
-* Sleep-EDF Expanded Dataset
+🔗 Official dataset link:
+https://physionet.org/content/sleep-edfx/1.0.0/sleep-cassette/
+
+---
+
+### 🧠 Dataset Description
+
+The Sleep-EDF Expanded dataset is a widely used benchmark for sleep stage classification research.
+
+* Contains **197 full-night polysomnography (PSG) recordings** ([PhysioNet][1])
+* Includes multiple physiological signals:
+
+  * EEG (Fpz-Cz, Pz-Oz)
+  * EOG (eye movements)
+  * EMG (muscle activity)
+  * Event markers ([PhysioNet][1])
+* Some recordings also include respiration and body temperature signals ([PhysioNet][1])
+
+Each recording is accompanied by **hypnogram annotations** (sleep stages) manually labeled by experts according to standard sleep scoring guidelines ([PhysioNet][1]).
+
+---
+
+### 💤 Sleep Stages
+
+The dataset provides labeled sleep stages:
+
+* W (Wake)
+* N1
+* N2
+* N3
+* REM
+* M (Movement)
+* ? (Unknown)
+
+---
+
+## 📁 Data Format
+
+* Signal files: `.edf` (European Data Format)
+* Annotation files: `.edf+` (Hypnogram)
+
+Each PSG file contains multi-channel physiological signals recorded overnight, typically sampled at **100 Hz for EEG/EOG** ([PhysioNet][2]).
+
+---
+
+### 📌 Notes
+
+* Dataset is **not included** in this repository due to large size
+* Users must download data manually from the official source
+* Proper citation is required when using this dataset in research
+
+---
+
+### 📚 Citation
+
+If you use this dataset, please cite:
+
+> Kemp et al., *Analysis of a sleep-dependent neuronal feedback loop*, IEEE-BME, 2000.
+
+And the PhysioNet resource accordingly.
+
+---
+
+[1]: https://physionet.org/content/sleep-edfx/?utm_source=chatgpt.com "Sleep-EDF Database Expanded v1.0.0"
+[2]: https://physionet.org/content/sleep-edfx/1.0.0/sleep-cassette/?utm_source=chatgpt.com "Sleep-EDF Database Expanded v1.0.0"
+
 
 ---
 
