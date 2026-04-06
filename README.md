@@ -32,10 +32,6 @@ Dự án sử dụng dataset:
 
 * Sleep-EDF Expanded Dataset
 
-📥 **Download dataset tại:**
-
-> (Thêm link Google Drive hoặc Kaggle ở đây)
-
 ---
 
 ## ⚙️ Pipeline
