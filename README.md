@@ -141,7 +141,7 @@ Do giới hạn GitHub, dataset và model không được lưu trong repo.
 
 📥 **Tải tại:**
 
-* Dataset + Model: ([link](https://drive.google.com/drive/folders/1L6v5g6bjPmWasZPxk1TjTrGdMc41Wr8U?usp=sharing))
+* Dataset + Model: (https://drive.google.com/drive/folders/1L6v5g6bjPmWasZPxk1TjTrGdMc41Wr8U?usp=sharing)
 
 ---
 
